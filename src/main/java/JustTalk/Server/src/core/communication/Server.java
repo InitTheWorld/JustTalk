@@ -23,7 +23,7 @@ public class Server {
     private Logger logger = LoggerFactory.getLogger(getClass());
 
     @Value("${netty.port}")
-    private Integer port;
+    private Integer port = 8888;
 
     @Autowired
     private ServerHandlerInitializer serverHandlerInitializer;
@@ -32,7 +32,7 @@ public class Server {
     private EventLoopGroup workerGroup = new NioEventLoopGroup();
     private Channel channel;
     @PostConstruct
-    public void start(String[] args) throws InterruptedException  {
+    public void start() throws InterruptedException  {
         ServerBootstrap bootstrap = new ServerBootstrap();
         bootstrap.group(bossGroup,workerGroup)
                 .channel(NioServerSocketChannel.class)

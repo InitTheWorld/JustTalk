@@ -1,4 +1,4 @@
-package JustTalk.Commom.Message;
+package JustTalk.Common.Message;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,13 +6,14 @@ import org.springframework.aop.framework.AopProxyUtils;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
+import org.springframework.stereotype.Component;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
-
+@Component
 public class MessageHandlerContainer  implements InitializingBean {
     private Logger logger = LoggerFactory.getLogger(getClass());
 

@@ -1,7 +1,7 @@
 package JustTalk.Server.src.core.communication;
 
-import JustTalk.Commom.Message.MessageStruct;
-import JustTalk.Commom.StatusCode;
+import JustTalk.Common.Message.MessageStruct;
+import JustTalk.Common.Util.StatusCode;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelId;
 import io.netty.util.AttributeKey;

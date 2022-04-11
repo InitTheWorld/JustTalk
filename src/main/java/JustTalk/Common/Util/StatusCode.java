@@ -1,4 +1,4 @@
-package JustTalk.Commom;
+package JustTalk.Common.Util;
 
 import org.springframework.stereotype.Component;
 

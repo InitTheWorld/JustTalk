@@ -1,4 +1,4 @@
-package JustTalk.Commom.Message;
+package JustTalk.Common.Message;
 
 import io.netty.channel.Channel;
 

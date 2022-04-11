@@ -1,6 +1,4 @@
-package JustTalk.Commom.Message;
-
-import com.alibaba.fastjson.JSON;
+package JustTalk.Common.Message;
 
 public class MessageStruct {
     /**

@@ -1,5 +1,6 @@
-package JustTalk.Commom.Message;
+package JustTalk.Common.Message.Coder;
 
+import JustTalk.Common.Message.MessageStruct;
 import com.alibaba.fastjson.JSON;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;

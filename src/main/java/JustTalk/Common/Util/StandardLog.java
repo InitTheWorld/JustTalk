@@ -1,4 +1,4 @@
-package JustTalk.Commom;
+package JustTalk.Common.Util;
 /*TODO*/
 
 public class StandardLog {
